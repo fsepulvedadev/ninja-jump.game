@@ -5,6 +5,23 @@
 
 * {
 	font-family: ninja;
+	text-decoration: none;
+}
+
+.footer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: -webkit-linear-gradient(#e71f33, #da873e);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+a {
+	background: -webkit-linear-gradient(#e71f33, #da873e);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 body {
 	background-color: black;
